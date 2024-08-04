@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "recommender-engine-study"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scikit-surprise = "^1.1.1"
+numpy = "<2.0"
+certifi = "^2024.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
